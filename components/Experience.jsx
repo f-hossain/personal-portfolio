@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import ptt from '/Users/farihahossain/projects/personal-portfolio/public/exp1.jpeg'
 
 const Experience = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import placeholder from '/Users/farihahossain/projects/personal-portfolio/public/Screen Shot 2022-07-30 at 12.32.23 PM.png'
+import placeholder from '../public/Screen Shot 2022-07-30 at 12.32.23 PM.png'
 
 const Projects = () => {
   return (
