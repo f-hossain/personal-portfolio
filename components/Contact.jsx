@@ -45,22 +45,22 @@ const Contact = () => {
     setEmail('')
     setMessage('')
     submitText = 'Sent!'
-    alert("Sent! I will get back to you soon :)");
+    alert("Sent! I'll get back to you soon :)");
    
   }
 
 
   return (
-    <div className='flex flex-col justify-content w-full font-mono px-6 pt-12 md:pt-24 md:px-24'>
+    <div className='flex flex-col justify-content w-full px-6 md:pt-24 md:px-24'>
         {/*  section title */}
         <div id='contact' className='flex flex-row'>
-          <div className='inline-block mb-8 text-2xl'>
-              <p className='custom_heading'>keep in touch.</p>
+          <div className='inline-block mb-8 text-3xl'>
+              <p className='custom_heading playfair'>keep in touch.</p>
           </div>
         </div>
 
         {/* content container */}
-        <div>
+        <div className='pt-9 px-2'>
           {/* text content */}
           <div>
             <div className=''>
@@ -76,23 +76,24 @@ const Contact = () => {
           {/* THE ACTUAL FORM !!!!! */}
           <div className='pt-10 pb-10 md:pb-20 px-10 md:px-28'>
             <form className='flex flex-col space-y-6'>
-              <formGroup className='flex flex-col space-y-2'>
-                < label htmlFor='name'>Name</label>
+              <formGroup className='flex flex-col space-y-1'>
+                < label className='poppins text-sm' htmlFor='name'>Name</label>
                 < input type='text' value={name} placeholder='Anya Forger' onChange={(e)=>{setName(e.target.value)}} name='name' className='border border-slate-300 rounded shadow-sm shadow-slate-200 h-8 px-2' required />  
               </formGroup>
 
-              <formGroup className='flex flex-col space-y-2'>
-                < label htmlFor='email'>Email</label>
-                < input type='email' value={email} placeholder='name@email.com' onChange={(e)=>{setEmail(e.target.value)}} name='email' className='border border-slate-300 rounded shadow-sm shadow-slate-200 h-8 px-2' required />
+              <formGroup className='flex flex-col space-y-1'>
+                < label className='poppins text-sm' htmlFor='email'>Email</label>
+                < input type='email' value={email} placeholder='anya@edenacademy.com' onChange={(e)=>{setEmail(e.target.value)}} name='email' className='border border-slate-300 rounded shadow-sm shadow-slate-200 h-8 px-2' required />
               </formGroup>
 
-              <formGroup className='flex flex-col space-y-2 inline-block'>
-                < label htmlFor='message'>Message</label>
-                < input type='text' value={message} placeholder='Type your message here!' onChange={(e)=>{setMessage(e.target.value)}} name='message' className='border border-slate-300 rounded h-36 shadow-sm shadow-slate-200 px-2' required />
+              <formGroup className='flex flex-col space-y-1 inline-block'>
+                < label className='poppins text-sm' htmlFor='message'>Message</label>
+                {/* < input type='text-area' value={message} placeholder='Type your message here!' onChange={(e)=>{setMessage(e.target.value)}} name='message' className='border border-slate-300 rounded h-36 shadow-sm shadow-slate-200 px-2' required /> */}
+                <textarea id='message' name='message' value={message} placeholder='Type your message here!' onChange={(e)=>{setMessage(e.target.value)}} className='border border-slate-300 rounded h-36 shadow-sm shadow-slate-200 p-2'/>
               </formGroup>
 
               <div className='inline-block flex flex-col items-center '>
-              <input type='submit' value={submitText} onClick={(e)=>{handleSubmit(e)}} className='text-xs py-2 px-3 border border-slate-200 rounded text-slate-600 bg-slate-100 card' />
+              <input type='submit' value={submitText} onClick={(e)=>{handleSubmit(e)}} className='text-xs py-2 px-3 border border-slate-200 rounded text-slate-600 bg-slate-100 card poppins' />
               </div>
             </form>
           </div>

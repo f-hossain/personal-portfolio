@@ -17,7 +17,7 @@ const Header = () => {
   }; 
 
   return (
-    <div id='home' className='flex flex-col w-full h-screen font-mono pb-5'>
+    <div id='home' className='flex flex-col w-full h-screen pb-5'>
         {/* acc header */}
         <div className="header-2">
             <nav className="bg-white py-2 md:py-4">
@@ -32,7 +32,7 @@ const Header = () => {
                         </button>
                     </div>
 
-                    <div className={isActive ? "hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 page_links" : "flex md:flex flex-col px-8 md:px-0 md:flex-row md:ml-auto mt-3 md:mt-0 page_links"}>
+                    <div className={isActive ? "hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 page_links poppins" : "flex md:flex flex-col px-8 md:px-0 md:flex-row md:ml-auto mt-3 md:mt-0 page_links"}>
                         <a href="#about" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">about</a>
                         <a href="#work" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">experience</a>
                         <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">projects</a>
@@ -47,7 +47,7 @@ const Header = () => {
         {/* small lil intro abt me */}
         <div className='flex flex-col-reverse md:flex-row justify-center items-center md:h-full md:space-x-10 space-y-6 space-y-reverse pt-10 px-12 md:px-24'>
             <div className='flex flex-col items-center space-y-8 pt-10 md:pt-0'>
-                <div className='text-4xl text-slate-500'>
+                <div className='text-4xl text-slate-500 poppins'>
                     <Typewriter
                         onInit={(typewriter) => {
                         typewriter.typeString('o hey .')

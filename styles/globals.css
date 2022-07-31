@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +9,26 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family: 'Lora', serif;
+  color: #292524;
 }
+
+.lora {
+  font-family: 'Lora', serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.courier {
+  font-family: 'Courier Prime', monospace;
+}
+
 
 ::selection {
   background: #f3f0f8;
@@ -93,13 +114,16 @@ a {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: #f3f0f8;
+  background: #f0f9ff;
   z-index: -1;
   transition: transform .3s ease;
 }
 
 .custom_heading {
   position: relative;
+  font-weight: 500;
+  font-family: 'Playfair Display', serif;
+  color: #44403c;
 }
 
 .my_bg {
@@ -123,8 +147,8 @@ a {
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-color: #cbd5e1;
+  box-shadow: 0 10px 15px -3px rgb(71 85 105 / 0.1), 0 4px 6px -4px rgb(71 85 105 / 0.1);
+  /* --tw-shadow-color: #1e83ff; */
 }
 
 a {
@@ -151,11 +175,11 @@ a:hover {
 }
 .icon-style{
   background-color: #fff;
-  border: 2px solid #cabfc2;
+  border: 2px solid #78716c;
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  color: #cabfc2;
+  color: #78716c;
   cursor: pointer;
   /* animation: movebtn 3s ease-in-out infinite; */
   transition: all .5s ease-in-out;
@@ -163,8 +187,8 @@ a:hover {
 .icon-style:hover{
   animation: none;
   background: #fff;
-  color: #47454a;
-  border: 2px solid #47454a;
+  color: #44403c;
+  border: 2px solid #44403c;
 }
 /* @keyframes movebtn {
   0%{
@@ -183,8 +207,3 @@ a:hover {
     transform: translateY(0px);
   } */
 /* } */
-
-
-.custom_border {
-  
-}
