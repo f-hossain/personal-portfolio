@@ -23,12 +23,12 @@ const About = () => {
               <i>❝ Previously: bright eyed girl with too much time on her hands and access to tumblr.com who built custom themes for blogs using html/css. 
               <br />
               <br />
-              Currently: a full stack developer with over 2 years of professional experience (<a href='https://github.com/f-hossain' target='_blank'>+ 10 years of random side projects</a>) and a BASc in Nanotechnology Engineering from the University of Waterloo ❞</i>
+              Currently: a full stack developer with over 2 years of professional experience (<a href='https://github.com/f-hossain' target='_blank' rel="noreferrer">+ 10 years of random side projects</a>) and a BASc in Nanotechnology Engineering from the University of Waterloo ❞</i>
               <br />
               {/* <br />
               <hr /> */}
               <br />
-              I consider myself a free-spirit and an avid pursuer of many random hobbies. You can talk to me about anything ranging from hiking, video games and sustainability. I’m also a bit of a linguistics nerd and know and/or am learning 7 languages - so come say hi (in whichever language you please)!
+              I consider myself a free-spirit and an avid pursuer of many random hobbies. You can talk to me about anything ranging from hiking, video games and sustainability. I&apos;m also a bit of a linguistics nerd and know and/or am learning 7 languages - so come say hi (in whichever language you please)!
               </div>
             </div>
         </div>
