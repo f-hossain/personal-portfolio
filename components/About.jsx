@@ -13,7 +13,7 @@ const About = () => {
         </div>
 
         {/* content container */}
-        <div className='flex flex-col md:flex-row justify-center items-center content-center md:space-x-12 md:divide-x-2 border-solid border-neutral-200 md:pt-9'>
+        <div className='flex flex-col md:flex-row justify-center items-center content-center md:space-x-12 md:divide-x-2 border-solid border-neutral-200 md:pt-9 px-2'>
             <div className='w-96'>
               <Image src={about} />
             </div>

@@ -1,7 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import placeholder from '../public/Screen Shot 2022-07-30 at 12.32.23 PM.png'
-import { AiOutlineLink } from 'react-icons/ai'
+import mico from '../public/mico.jpeg'
+import tiktok from '../public/tt.png'
+import productrecs from '../public/pr.png'
+import num from '../public/nm.png'
 
 const Projects = () => {
   return (
@@ -20,127 +22,110 @@ const Projects = () => {
           <div className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={placeholder} />
+              <Image src={mico} />
             </div>
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Mico App</div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat. Check out the source code <a href="">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Led and developed an iOS application that can scan and connect to nearby portable flash devices as well as take photos and save them to the iPhone photo gallery. This integrates the iPhone camera to sync and capture good quality, fully lit photos. Check out the code <a href="">here </a>and the full concept video <a href="">here</a>.</div>
 
   
-            {/* tags -- optional & will add later */}
-            <div className='flex flex-row space-x-2 py-2 poppins items-center justify-center'>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                python
+            {/* tags */}
+            <div className='flex flex-wrap py-2 poppins items-center justify-center'>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                swift 5
               </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                ruby
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                xcode 12
               </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                javascript
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                Apple Core Bluetooth
+              </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                AV Foundation
               </span>
             </div>
-
-            {/* github link */}
-            {/* <div className='text-slate-400 underline underline-slate-200 text-center p-2'>
-              <a href="#" className='hover:text-slate-700'>source code</a>
-            </div> */}
           </div>
 
 
-          {/* INDIVIDUAL CARD -- MICO */}
+          {/* INDIVIDUAL CARD -- TT */}
           <div className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={placeholder} />
+              <Image src={tiktok} />
             </div>
             {/* title */}
-            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Mico App</div>
+            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>TikTok OmniAuth Strategy</div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat. Check out the source code <a href="">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Created a new Omniauth strategy for use with the TikTok Login Kit as a ruby gem to handle TikTok’s unique response upon user auth. Developers can add this gem to their rails project to allow full use of the TikTok API on their platform. Check out the gem <a href="">here</a>.</div>
 
   
-            {/* tags -- optional & will add later */}
-            <div className='flex flex-row space-x-2 py-2 poppins items-center justify-center'>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                python
-              </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
+            {/* tags */}
+            <div className='flex flex-wrap py-2 poppins items-center justify-center'>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                 ruby
               </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                javascript
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                ruby on rails
               </span>
             </div>
-
-            {/* github link */}
-            {/* <div className='text-slate-400 underline underline-slate-200 text-center p-2'>
-              <a href="#" className='hover:text-slate-700'>source code</a>
-            </div> */}
           </div>
 
 
-          {/* INDIVIDUAL CARD -- MICO */}
+          {/* INDIVIDUAL CARD -- Product Recs */}
           <div className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={placeholder} />
+              <Image src={productrecs} />
             </div>
             {/* title */}
-            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Mico App</div>
+            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Product Recommendations</div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat. Check out the source code <a href="">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Created a feature on Pixlee’s platform as part of a hackathon project which allows alternative product recommendations to be configured and displayed for user generated content in an image gallery, generating 30% more customer traffic on product pages.</div>
 
   
-            {/* tags -- optional & will add later */}
-            <div className='flex flex-row space-x-2 py-2 poppins items-center justify-center'>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                python
-              </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
+            {/* tags */}
+            <div className='flex flex-wrap py-2 poppins items-center justify-center'>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                 ruby
               </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                ruby on rails
+              </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                 javascript
               </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                sql
+              </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                scala
+              </span>
             </div>
-
-            {/* github link */}
-            {/* <div className='text-slate-400 underline underline-slate-200 text-center p-2'>
-              <a href="#" className='hover:text-slate-700'>source code</a>
-            </div> */}
           </div>
 
 
-          {/* INDIVIDUAL CARD -- MICO */}
+          {/* INDIVIDUAL CARD -- Temp */}
           <div className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={placeholder} />
+              <Image src={num} />
             </div>
             {/* title */}
-            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Mico App</div>
+            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Numerical Mapping </div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt vitae semper quis lectus nulla at volutpat. Check out the source code <a href="">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Developed multiple scripts to generate temperature and/or frequency maps to model various physical systems on the nano-scale using techniques such as the Richardson method, the Crank-Nicholson method, etc. Check out some of the scripts <a href="">here</a>.</div>
 
   
             {/* tags -- optional & will add later */}
-            <div className='flex flex-row space-x-2 py-2 poppins items-center justify-center'>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                python
+            <div className='flex flex-wrap py-2 poppins items-center justify-center'>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                c++
               </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                ruby
-              </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                javascript
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                matlab
               </span>
             </div>
-
-            {/* github link */}
-            {/* <div className='text-slate-400 underline underline-slate-200 text-center p-2'>
-              <a href="#" className='hover:text-slate-700'>source code</a>
-            </div> */}
           </div>
 
         </div>

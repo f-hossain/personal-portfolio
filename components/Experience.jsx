@@ -28,17 +28,32 @@ const Experience = () => {
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Led and developed multiple core features for the Pixlee platform such as the end to end user flow for TikTok authentication within our app, the integration of Instagram APIs to scan and collect thousands of user generated content on the web as well as schedule and publish posts through our platform. Also acted as an intern mentor later on during my time here!</div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-row space-x-2 poppins'>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
+                <div className='flex flex-wrap poppins'>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    ruby on rails
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    javascript
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    backbone.js
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    react
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     python
                   </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    ruby
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    sql
                   </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    javascript
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    redis
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    resque
                   </span>
               </div>
             </div>
@@ -50,28 +65,31 @@ const Experience = () => {
           <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Jan 2021 - Dec 2021
+              Jan 2020 - Apr 2020
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ Pixlee</i></p>
+                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ McAfee</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Led the creation of a landing page and data tables for an internal analytics tool using Angular as well as multiple data visualizations and RESTful APIs to showcase the nodes and paths of over 1000 dataset context items and how they are used within the analytics team’s ML models.</div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-row space-x-2 poppins'>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    python
-                  </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    ruby
-                  </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
+                <div className='flex flex-wrap poppins'>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     javascript
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    angular
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    nodejs
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    sql
                   </span>
               </div>
             </div>
@@ -79,34 +97,32 @@ const Experience = () => {
 
 
 
-
-
           {/* ACTUAL CONTENT - HOME DEPOT */}
           <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Jan 2021 - Dec 2021
+              Sept 2019 - Dec 2019
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ Pixlee</i></p>
+                <p className='text-xl text-stone-700 poppins'>Frontend Developer <i>@ Home Depot</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Implemented a data lake repository to capture and optimize web performance metrics by as much as 52% and created multiple Angular components for their ecommerce website to improve the customer checkout experience. </div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-row space-x-2 poppins'>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    python
-                  </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    ruby
-                  </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
+                <div className='flex flex-wrap poppins'>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     javascript
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    angular
+                  </span>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    nodejs
                   </span>
               </div>
             </div>
@@ -118,28 +134,25 @@ const Experience = () => {
           <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Jan 2021 - Dec 2021
+              Jan 2019 - Apr 2019
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ Pixlee</i></p>
+                <p className='text-xl text-stone-700 poppins'>Software Engineer In Test <i>@ Influitive</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Developed an automated test suite with Java and Selenium for web and mobile applications, increasing the platform’s test coverage by 40%. Also led an independent project to create an internal tool integrating Slack, GitLab and Jira to notify developers on forgotten tickets near the end of a sprint, increasing the number of points completed by the end of a sprint by 55%</div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-row space-x-2 poppins'>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    python
+                <div className='flex flex-wrap poppins'>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    java
                   </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    ruby
-                  </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    javascript
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    selenium
                   </span>
               </div>
             </div>
@@ -151,28 +164,25 @@ const Experience = () => {
           <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Jan 2021 - Dec 2021
+              May 2018 - Aug 2018
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ Pixlee</i></p>
+                <p className='text-xl text-stone-700 poppins'>Data Analyst <i>@ NPower</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Wrote visual basic scripts to handle and interpret 1000+ user records, and generated an ML model using WEKA software to predict students’ final exam scores based on previous performance in the program, in order to determine which students required more preparation leading up to the exam.</div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-row space-x-2 poppins'>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    python
+                <div className='flex flex-wrap poppins'>
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    visual basic
                   </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    ruby
-                  </span>
-                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1">
-                    javascript
+                  <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                    weka
                   </span>
               </div>
             </div>
