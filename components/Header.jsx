@@ -46,7 +46,6 @@ const Header = () => {
         {/* small lil intro abt me */}
         <div className='flex flex-col-reverse md:flex-row justify-center items-center md:h-full md:space-x-10 space-y-6 space-y-reverse pt-10 px-12 md:px-24'>
             <div className='flex flex-col items-center space-y-8 pt-10 md:pt-0'>
-                {/* <p className='text-4xl'>o hey .</p> */}
                 <div className='text-4xl text-slate-500'>
                     <Typewriter
                         onInit={(typewriter) => {
@@ -58,7 +57,7 @@ const Header = () => {
                         }}
                     />
                 </div>
-                <p>I'm Fariha, nice to meet you!</p>
+                <p>I&apos;m Fariha, nice to meet you!</p>
             </div>
             <div className='w-80 md:w-96 flex justify-center items-center'>
                 <div className='image-circle'>

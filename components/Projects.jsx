@@ -188,19 +188,6 @@ const Projects = () => {
               <a href="#" className='hover:text-slate-700 my_links'>source code</a>
             </div>
   
-            {/* tags */}
-            {/* <div className='flex flex-row space-x-2'>
-              <span>skills : </span>
-              <span className="text-xs font-semibold inline-block py-1 px-2 lowercase rounded text-blue-600 outline outline-1 outline-blue-200 last:mr-0 mr-1">
-                python
-              </span>
-              <span className="text-xs font-semibold inline-block py-1 px-2 lowercase rounded text-red-600 outline outline-1 outline-red-200 last:mr-0 mr-1">
-                ruby
-              </span>
-              <span className="text-xs font-semibold inline-block py-1 px-2 lowercase rounded text-orange-600 outline outline-1 outline-orange-200 last:mr-0 mr-1">
-                javascript
-              </span>
-            </div> */}
           </div>
 
 
