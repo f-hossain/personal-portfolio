@@ -17,7 +17,7 @@ const Header = () => {
   }; 
 
   return (
-    <div id='home' className='flex flex-col w-full h-screen pb-5'>
+    <div id='home' className='flex flex-col w-full h-fit md:h-screen pb-10 md:pb-5'>
         {/* acc header */}
         <div className="header-2">
             <nav className="bg-white py-2 md:py-4">
