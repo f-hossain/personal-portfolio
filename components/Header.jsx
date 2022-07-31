@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa'
 import logo from '/Users/farihahossain/projects/personal-portfolio/public/logo_alt.png'
 import placeholder from '/Users/farihahossain/projects/personal-portfolio/public/IMG_0870_Original.jpg'
 import Typewriter from 'typewriter-effect';
+import Link from 'next/link';
 
 
 const Header = () => {   
@@ -24,7 +25,7 @@ const Header = () => {
 
                     <div className="flex justify-between items-center">
                         <div className='w-28'>
-                            <a href="/"><Image src={logo} /></a>
+                            <Link href="/"><Image src={logo} /></Link>
                         </div>
                         <button className="px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" onClick={handleToggle}>
                             <FaBars size={28} />
