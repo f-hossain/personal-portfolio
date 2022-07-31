@@ -45,7 +45,7 @@ const Contact = () => {
     setEmail('')
     setMessage('')
     submitText = 'Sent!'
-    alert("Sent! I'll get back to you soon :)");
+    alert("Sent! I will get back to you soon :)");
    
   }
 
