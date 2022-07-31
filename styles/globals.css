@@ -1,9 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #f3f0f8;
 }
 
 a {
@@ -15,12 +22,169 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.page_links > a {
+  color: #47454a;
+  display: inline-block;
+  position: relative;
+  /* color: #47454a */
+}
+
+.page_links > a:hover {
+  color: #A8AFBA;
+}
+
+.page_links > a:after {
+  background-color: #A8AFBA;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.page_links > a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.image-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-top: 2px dashed #cabfc2;
+  border-right: 2px dashed #cabfc2;
+  border-left: 2px dashed #6e3c11;
+  border-bottom: 2px dashed #6e3c11;
+  padding: 10px;
+  animation: spin 20s infinite linear;
+}
+
+.actual_image {
+  animation: spin 20s infinite reverse linear;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(1turn);
   }
-  body {
-    color: white;
-    background: black;
+}
+
+.title_container {
+  display: inline-block;
+}
+
+.custom_heading::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.custom_heading:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.custom_heading::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #f3f0f8;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.custom_heading {
+  position: relative;
+}
+
+.my_bg {
+  background: #A8AEBA;
+  color: #fff
+}
+
+.card {
+  /* hover off */
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0;
+}
+
+.card:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-color: #cbd5e1;
+}
+
+a {
+  color: #94a3b8;
+  transition: all 0.5s linear;
+}
+
+a:hover {
+  color: #475569;
+}
+
+/* ============================ */
+/*      ILL FIX THIS LATER      */
+/* ============================ */
+
+.top-to-btm{
+  position: relative;
+}
+.icon-position{
+  position: fixed;
+  bottom: 1.5rem;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style{
+  background-color: #fff;
+  border: 2px solid #cabfc2;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #cabfc2;
+  cursor: pointer;
+  /* animation: movebtn 3s ease-in-out infinite; */
+  transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: #47454a;
+  border: 2px solid #47454a;
+}
+/* @keyframes movebtn {
+  0%{
+    transform: translateY(0px);
   }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  } */
+/* } */
+
+
+.custom_border {
+  
 }
