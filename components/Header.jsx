@@ -32,7 +32,7 @@ const Header = () => {
                         </button>
                     </div>
 
-                    <div className={isActive ? "hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 page_links poppins" : "flex md:flex flex-col px-8 md:px-0 md:flex-row md:ml-auto mt-3 md:mt-0 page_links"}>
+                    <div className={isActive ? "hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0 page_links poppins" : "flex md:flex flex-col px-8 md:px-0 md:flex-row md:ml-auto mt-3 md:mt-0 page_links poppins"}>
                         <a href="#about" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">about</a>
                         <a href="#work" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">experience</a>
                         <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">projects</a>
