@@ -25,7 +25,10 @@ const About = () => {
 
         {/* content container */}
         <div className='flex flex-col md:flex-row justify-center items-center content-center md:space-x-12 md:divide-x-2 border-solid border-neutral-200 md:pt-9 px-2'>
-            <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='w-96'>
+            <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='w-96 hidden md:block'>
+              <Image src={about} />
+            </motion.div>
+            <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='w-96 md:hidden'>
               <Image src={about} />
             </motion.div>
             <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-items-center md:justify-items-start w-3/4'>
