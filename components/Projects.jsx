@@ -27,7 +27,7 @@ const Projects = () => {
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Mico App</div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Led and developed an iOS application that can scan and connect to nearby portable flash devices as well as take photos and save them to the iPhone photo gallery. This integrates the iPhone camera to sync and capture good quality, fully lit photos. Check out the code <a href="https://github.com/f-hossain/mico_app">here </a>and the full concept video <a href="https://www.youtube.com/watch?v=Ep1qo48lDI4">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Led and developed an iOS application that can scan and connect to nearby portable flash devices as well as take photos and save them to the iPhone photo gallery. This integrates the iPhone camera to sync and capture good quality, fully lit photos. Check out the code <a href="https://github.com/f-hossain/mico_app" target="_blank" rel="noreferrer">here </a>and the full concept video <a href="https://www.youtube.com/watch?v=Ep1qo48lDI4" target="_blank" rel="noreferrer">here</a>.</div>
 
   
             {/* tags */}
@@ -57,7 +57,7 @@ const Projects = () => {
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>TikTok OmniAuth Strategy</div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Created a new Omniauth strategy for use with the TikTok Login Kit as a ruby gem to handle TikTok’s unique response upon user auth. Developers can add this gem to their rails project to allow full use of the TikTok API on their platform. Check out the gem <a href="https://github.com/f-hossain/tiktok_oauth_strategy">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Created a new Omniauth strategy for use with the TikTok Login Kit as a ruby gem to handle TikTok’s unique response upon user auth. Developers can add this gem to their rails project to allow full use of the TikTok API on their platform. Check out the gem <a href="https://github.com/f-hossain/tiktok_oauth_strategy" target="_blank" rel="noreferrer">here</a>.</div>
 
   
             {/* tags */}
@@ -114,7 +114,7 @@ const Projects = () => {
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Numerical Mapping </div>
             {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Developed multiple scripts to generate temperature and/or frequency maps to model various physical systems on the nano-scale using techniques such as the Richardson method, the Crank-Nicholson method, etc. Check out some of the scripts <a href="https://github.com/f-hossain/numerical_methods">here</a>.</div>
+            <div className='text-justify px-2 text-stone-700'>Developed multiple scripts to generate temperature and/or frequency maps to model various physical systems on the nano-scale using techniques such as the Richardson method, the Crank-Nicholson method, etc. Check out some of the scripts <a href="https://github.com/f-hossain/numerical_methods" target="_blank" rel="noreferrer">here</a>.</div>
 
   
             {/* tags -- optional & will add later */}
