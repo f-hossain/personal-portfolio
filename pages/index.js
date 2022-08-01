@@ -9,11 +9,10 @@ import ScrollToTop from '../components/ScrollToTop'
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <ScrollToTop />
       <Header />
       <div className='md:px-24'>
-        
         <About />
         <Experience />
         <Projects />
