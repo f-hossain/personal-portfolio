@@ -43,7 +43,7 @@ const Header = () => {
                         <a href="#work" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">experience</a>
                         <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">projects</a>
                         <a href="#contact" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">contact</a>
-                        <a href='https://drive.google.com/file/d/1EK6I7EEFwbmd5a92vPCPt85ZyKcfVs78/view?usp=sharing' target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">resume</a>
+                        <a href='https://drive.google.com/drive/u/0/folders/1bVJ5ahbgSxDe-zcWOdiJAtk53lSiMTB6' target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">resume</a>
                     </div>
                 </div>
             </nav>
