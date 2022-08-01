@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import Head from "next/head";
-import favicon from '/Users/farihahossain/projects/personal-portfolio/public/favicon.ico'
 
 function MyApp({ Component, pageProps }) {
   return (
