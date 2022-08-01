@@ -1,6 +1,12 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 const Experience = () => {
+  const slideVariant = {
+    visible: { opacity: 1, x: 0, transition: {duration: 0.8} },
+    hidden: { opacity: 0.5, x: -250 },
+  }
+
   return (
     <div  className='flex flex-col justify-content w-full px-6 pb-12 md:pt-24 md:px-24'>
         {/*  section title */}
@@ -14,7 +20,7 @@ const Experience = () => {
         <div className='flex flex-col space-y-16 md:pt-9'>
 
           {/* ACTUAL CONTENT - PIXLEE */}
-          <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
+          <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
               Jan 2021 - Dec 2021
@@ -57,12 +63,12 @@ const Experience = () => {
                   </span>
               </div>
             </div>
-          </div>
+          </motion.div>
 
 
 
           {/* ACTUAL CONTENT - MCAFEE */}
-          <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
+          <motion.div  variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
               Jan 2020 - Apr 2020
@@ -93,12 +99,12 @@ const Experience = () => {
                   </span>
               </div>
             </div>
-          </div>
+          </motion.div>
 
 
 
           {/* ACTUAL CONTENT - HOME DEPOT */}
-          <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
+          <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
               Sept 2019 - Dec 2019
@@ -126,12 +132,12 @@ const Experience = () => {
                   </span>
               </div>
             </div>
-          </div>
+          </motion.div>
 
 
 
           {/* ACTUAL CONTENT - INFLUITIVE */}
-          <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
+          <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
               Jan 2019 - Apr 2019
@@ -156,12 +162,12 @@ const Experience = () => {
                   </span>
               </div>
             </div>
-          </div>
+          </motion.div>
 
 
 
           {/* ACTUAL CONTENT - NPOWER */}
-          <div className='flex flex-col justify-center md:flex-row md:space-x-10 '>
+          <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
               May 2018 - Aug 2018
@@ -186,7 +192,7 @@ const Experience = () => {
                   </span>
               </div>
             </div>
-          </div>
+          </motion.div>
 
 
         </div>

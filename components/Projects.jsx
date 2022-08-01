@@ -4,8 +4,13 @@ import mico from '../public/mico.jpeg'
 import tiktok from '../public/tt.png'
 import productrecs from '../public/pr.png'
 import num from '../public/nm.png'
+import { motion } from "framer-motion";
 
 const Projects = () => {
+  const popVariant = {
+    visible: { opacity: 1, transition: {duration: 0.5} },
+    hidden: { opacity: 0,  },
+  }
   return (
     <div className='flex flex-col justify-content w-full px-6 pb-12 md:pt-24 md:px-12 lg:px-24'>
         {/*  section title */}
@@ -19,7 +24,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 md:px-10 pt-9'>
 
           {/* INDIVIDUAL CARD -- MICO */}
-          <div className='rounded border border-slate-100 p-3 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
               <Image src={mico} />
@@ -45,11 +50,11 @@ const Projects = () => {
                 AV Foundation
               </span>
             </div>
-          </div>
+          </motion.div>
 
 
           {/* INDIVIDUAL CARD -- TT */}
-          <div className='rounded border border-slate-100 p-3 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
               <Image src={tiktok} />
@@ -69,11 +74,11 @@ const Projects = () => {
                 ruby on rails
               </span>
             </div>
-          </div>
+          </motion.div>
 
 
           {/* INDIVIDUAL CARD -- Product Recs */}
-          <div className='rounded border border-slate-100 p-3 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
               <Image src={productrecs} />
@@ -102,11 +107,11 @@ const Projects = () => {
                 scala
               </span>
             </div>
-          </div>
+          </motion.div>
 
 
           {/* INDIVIDUAL CARD -- Temp */}
-          <div className='rounded border border-slate-100 p-3 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
               <Image src={num} />
@@ -126,7 +131,7 @@ const Projects = () => {
                 matlab
               </span>
             </div>
-          </div>
+          </motion.div>
 
         </div>
     </div>

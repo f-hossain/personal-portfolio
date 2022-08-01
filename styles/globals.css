@@ -81,7 +81,7 @@ a {
   border-left: 2px dashed #6e3c11;
   border-bottom: 2px dashed #6e3c11;
   padding: 10px;
-  animation: spin 20s infinite linear;
+  /* animation: spin 20s infinite linear; */
 }
 
 .actual_image {

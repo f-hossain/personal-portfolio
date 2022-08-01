@@ -6,6 +6,9 @@ import logo from '../public/logo-transparent.png'
 import placeholder from '../public/IMG_0870_Original.jpg'
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 
 const Header = () => {   
@@ -15,6 +18,11 @@ const Header = () => {
   const handleToggle = () => {
       setActive(!isActive);
   }; 
+
+  const popVariant = {
+    visible: { opacity: 1, scale: 1 },
+    hidden: { opacity: 0, scale: 0 },
+  }
 
   return (
     <div id='home' className='flex flex-col w-full h-fit md:h-screen pb-10 md:pb-5'>
@@ -60,11 +68,16 @@ const Header = () => {
                 </div>
                 <p>I&apos;m Fariha, nice to meet you!</p>
             </div>
-            <div className='w-80 md:w-96 flex justify-center items-center'>
+            {/* <div className='w-80 md:w-96 flex justify-center items-center'>
                 <div className='image-circle'>
                   <Image src={placeholder} className='rounded-full actual_image'/>
                 </div>
-            </div>
+            </div> */}
+            <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.5 }} className='w-80 md:w-96 flex justify-center items-center'>
+                <div className='image-circle'>
+                  <Image src={placeholder} className='rounded-full'/>
+                </div>
+            </motion.div>
         </div>
     </div>
   )
