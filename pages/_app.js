@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       {/* Add the favicon */}
       <Head>
-        <title>farfar</title>
+        <title>Fariha Hossain</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       {/* Add the favicon */}
