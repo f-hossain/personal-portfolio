@@ -1,17 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import about from '../public/about.jpg'
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const About = () => {
   const popVariant = {
     visible: { opacity: 1,  y: 0, transition: {duration: 0.8} },
     hidden: { opacity: 0,  y: 50 },
-  }
-
-  const slideVariant = {
-    visible: { opacity: 1, x: 0, transition: {duration: 0.8} },
-    hidden: { opacity: 0, x: 250 },
   }
 
   return (

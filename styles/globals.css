@@ -84,9 +84,6 @@ a {
   /* animation: spin 20s infinite linear; */
 }
 
-.actual_image {
-  animation: spin 20s infinite reverse linear;
-}
 
 @keyframes spin {
   100% {
@@ -94,9 +91,6 @@ a {
   }
 }
 
-.title_container {
-  display: inline-block;
-}
 
 .custom_heading::before {  
   transform: scaleX(0);
@@ -122,7 +116,6 @@ a {
 .custom_heading {
   position: relative;
   font-weight: 500;
-  font-family: 'Playfair Display', serif;
   color: #44403c;
 }
 
@@ -160,19 +153,17 @@ a:hover {
   color: #475569;
 }
 
-/* ============================ */
-/*      ILL FIX THIS LATER      */
-/* ============================ */
-
 .top-to-btm{
   position: relative;
 }
+
 .icon-position{
   position: fixed;
   bottom: 1.5rem;
   right: 25px;
   z-index: 20;
 }
+
 .icon-style{
   background-color: #fff;
   border: 2px solid #78716c;
@@ -184,26 +175,10 @@ a:hover {
   /* animation: movebtn 3s ease-in-out infinite; */
   transition: all .5s ease-in-out;
 }
+
 .icon-style:hover{
   animation: none;
   background: #fff;
   color: #44403c;
   border: 2px solid #44403c;
 }
-/* @keyframes movebtn {
-  0%{
-    transform: translateY(0px);
-  }
-  25%{
-    transform: translateY(20px);
-  }
-  50%{
-    transform: translateY(0px);
-  }
-  75%{
-    transform: translateY(-20px);
-  }
-  100%{
-    transform: translateY(0px);
-  } */
-/* } */
