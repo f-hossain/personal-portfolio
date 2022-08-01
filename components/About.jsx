@@ -26,7 +26,7 @@ const About = () => {
         {/* content container */}
         <div className='flex flex-col md:flex-row justify-center items-center content-center md:space-x-12 md:divide-x-2 border-solid border-neutral-200 md:pt-9 px-2'>
             <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='w-96'>
-              <Image src={about} />
+              <Image src={about} priority={true} />
             </motion.div>
             <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-items-center md:justify-items-start w-3/4'>
               <div className='text-xl md:pl-10 pt-3 md:pt-10 underline underline-offset-8 decoration-slate-200 md:no-underline poppins text-stone-700'>Fariha (fah · ree · uh) :</div>

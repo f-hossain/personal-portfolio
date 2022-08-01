@@ -27,7 +27,7 @@ const Projects = () => {
           <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={mico} />
+              <Image src={mico} priority={true} />
             </div>
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Mico App</div>
@@ -57,7 +57,7 @@ const Projects = () => {
           <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={tiktok} />
+              <Image src={tiktok} priority={true} />
             </div>
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>TikTok OmniAuth Strategy</div>
@@ -81,7 +81,7 @@ const Projects = () => {
           <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={productrecs} />
+              <Image src={productrecs} priority={true} />
             </div>
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Product Recommendations</div>
@@ -114,7 +114,7 @@ const Projects = () => {
           <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
             {/* image */}
             <div>
-              <Image src={num} />
+              <Image src={num} priority={true} />
             </div>
             {/* title */}
             <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Numerical Mapping </div>

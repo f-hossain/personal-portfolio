@@ -31,7 +31,7 @@ const Header = () => {
 
                     <div className="flex justify-between items-center">
                         <div className='w-28'>
-                            <Link href="/"><Image src={logo} /></Link>
+                            <Link href="/"><Image src={logo} priority={true} /></Link>
                         </div>
                         <button className="px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" onClick={handleToggle}>
                             <FaBars size={28} />
@@ -66,9 +66,9 @@ const Header = () => {
                 </div>
                 <p>I&apos;m Fariha, nice to meet you!</p>
             </div>
-            <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.5 }} className=' flex justify-center items-center'>
+            <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.7 }} className=' flex justify-center items-center'>
                 <div className='image-circle'>
-                  <Image src={placeholder} className='rounded-full'/>
+                  <Image src={placeholder} className='rounded-full' priority={true}/>
                 </div>
             </motion.div>
         </div>
