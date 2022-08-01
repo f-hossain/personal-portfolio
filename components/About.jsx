@@ -28,7 +28,7 @@ const About = () => {
             <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='w-96'>
               <Image src={about} />
             </motion.div>
-            <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-items-center md:justify-items-start w-3/4'>
+            <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-items-center md:justify-items-start w-3/4'>
               <div className='text-xl md:pl-10 pt-3 md:pt-10 underline underline-offset-8 decoration-slate-200 md:no-underline poppins text-stone-700'>Fariha (fah · ree · uh) :</div>
               <div className='md:pl-10 pt-5 md:pb-10 text-sm'>
               <p className='bg-slate-100 p-2 rounded text-slate-500 '>❝ <i>Previously: </i> a bright eyed girl with too much time on her hands and access to tumblr.com who built custom themes for blogs using html/css. 

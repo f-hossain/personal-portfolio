@@ -13,7 +13,7 @@ export default function Home() {
       <ScrollToTop />
       <Header />
       <div className='md:px-24'>
-        {/* <About /> */}
+        <About />
         <Experience />
         <Projects />
         <Contact />
