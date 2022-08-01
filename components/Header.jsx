@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useRef } from "react";
 import Image from 'next/image'
 import { FaBars } from 'react-icons/fa'
-import logo from '../public/logo_alt.png'
+import logo from '../public/logo-transparent.png'
 import placeholder from '../public/IMG_0870_Original.jpg'
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
