@@ -1,14 +1,12 @@
 import React from 'react'
-import { useState, useRef } from "react";
+import { useState } from "react";
 import Image from 'next/image'
 import { FaBars } from 'react-icons/fa'
 import logo from '../public/logo-transparent.png'
 import placeholder from '../public/IMG_0870_Original.jpg'
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 
 const Header = () => {   
@@ -60,7 +58,7 @@ const Header = () => {
                         onInit={(typewriter) => {
                         typewriter.typeString('o hey .')
                             .callFunction(() => {
-                            console.log('String typed out!');
+                            console.log('whats up');
                             })
                             .start();
                         }}
@@ -68,12 +66,7 @@ const Header = () => {
                 </div>
                 <p>I&apos;m Fariha, nice to meet you!</p>
             </div>
-            {/* <div className='w-80 md:w-96 flex justify-center items-center'>
-                <div className='image-circle'>
-                  <Image src={placeholder} className='rounded-full actual_image'/>
-                </div>
-            </div> */}
-            <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.5 }} className='w-80 md:w-96 flex justify-center items-center'>
+            <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.5 }} className=' flex justify-center items-center'>
                 <div className='image-circle'>
                   <Image src={placeholder} className='rounded-full'/>
                 </div>
