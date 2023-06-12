@@ -19,7 +19,7 @@ const MenuBar = () => {
         <div className="container px-4 mx-auto md:flex md:items-center">
 
             <div className="flex justify-between items-center">
-                <div className='w-20'>
+                <div className='w-14'>
                     <Link href="/"><Image src={logo2} priority={true} /></Link>
                 </div>
                 <button className="px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" onClick={handleToggle}>
