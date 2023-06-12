@@ -16,7 +16,7 @@ const Projects = () => {
         {/*  section title */}
         <div id='projects' className='flex flex-row'>
           <div className='inline-block mb-8 text-3xl'>
-              <p className='custom_heading playfair'>some cool stuff.</p>
+              <p className='custom_heading playfair'>my side projects.</p>
           </div>
         </div>
 

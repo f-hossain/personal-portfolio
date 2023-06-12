@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from 'next/image'
 import { FaBars } from 'react-icons/fa'
 import logo from '../public/logo-transparent.png'
-import placeholder from '../public/IMG_0870_Original.jpg'
+import profilePic from '../public/imgupd.jpg'
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
 import { motion } from "framer-motion";
@@ -56,7 +56,7 @@ const Header = () => {
                 <div className='text-4xl text-slate-500 poppins'>
                     <Typewriter
                         onInit={(typewriter) => {
-                        typewriter.typeString('o hey .')
+                        typewriter.typeString('hi there')
                             .callFunction(() => {
                             console.log('whats up');
                             })
@@ -68,7 +68,7 @@ const Header = () => {
             </div>
             <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.7 }} className=' flex justify-center items-center'>
                 <div className='image-circle'>
-                  <Image src={placeholder} className='rounded-full' priority={true}/>
+                  <Image src={profilePic} className='rounded-full' priority={true}/>
                 </div>
             </motion.div>
         </div>

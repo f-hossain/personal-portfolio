@@ -55,7 +55,7 @@ const Contact = () => {
         {/*  section title */}
         <div id='contact' className='flex flex-row'>
           <div className='inline-block mb-8 text-3xl'>
-              <p className='custom_heading playfair'>keep in touch.</p>
+              <p className='custom_heading playfair'>contact me.</p>
           </div>
         </div>
 
