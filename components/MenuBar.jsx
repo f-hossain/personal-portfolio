@@ -31,9 +31,9 @@ const MenuBar = () => {
                 <a href="#about" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">about</a>
                 <a href="#work" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">experience</a>
                 <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">projects</a>
-                {/* <a href="#contact" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">contact</a> */}
+                <a href="#contact" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">contact</a>
                 {/* <a href="/blog" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">blog</a> */}
-                <a href='https://drive.google.com/file/d/1dDZCK7YH6GyD6uL7slIs80z_N5EAy-QN/view?usp=sharing' target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">resume</a>
+                <a href='https://drive.google.com/file/d/1bXkijVQEhP0aYmQKXBb65xj0lMwNEF58/view?usp=sharing' target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">resume</a>
             </div>
         </div>
     </nav>
