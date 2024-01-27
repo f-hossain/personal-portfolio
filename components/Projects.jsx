@@ -21,7 +21,7 @@ const Projects = () => {
         </div>
 
         {/* content container */}
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 md:px-10 pt-9'>
+        <div className='grid grid-cols-1 gap-12 md:gap-8 md:px-10 pt-9'>
 
           {/* INDIVIDUAL CARD -- MICO */}
           <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
