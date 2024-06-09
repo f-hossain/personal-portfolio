@@ -67,8 +67,7 @@ const Contact = () => {
               I can be reached through the following platforms: 
               <a href="https://www.linkedin.com/in/f-hossain/" target='_blank' rel="noreferrer" className='text-slate-400 underline underline-slate-200 hover:text-slate-700 pl-1.5'>Linkedin</a>, 
               <a href="https://github.com/f-hossain" target='_blank' rel="noreferrer" className='text-slate-400 underline underline-slate-200 hover:text-slate-700 pl-1.5'>Github</a>, 
-              <a href="mailto:fthossain@outlook.com" target='_blank' rel="noreferrer" className='text-slate-400 underline underline-slate-200 hover:text-slate-700 pl-1.5'>Email</a>, 
-              <a href="https://twitter.com/fhossain_" target='_blank' rel="noreferrer" className='text-slate-400 underline underline-slate-200 hover:text-slate-700 pl-1.5 pr-1.5'>Twitter</a> or you can contact me directly through the form below!
+              <a href="mailto:fthossain@outlook.com" target='_blank' rel="noreferrer" className='text-slate-400 underline underline-slate-200 hover:text-slate-700 pl-1.5 pr-1'>Email</a> or you can contact me directly through the form below!
             </div>
           </div>
 

@@ -4,6 +4,7 @@ import mico from '../public/mico.jpeg'
 import tiktok from '../public/tt.png'
 import productrecs from '../public/pr.png'
 import num from '../public/nm.png'
+import lovelist from '../public/lovelist3.png'
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -21,7 +22,36 @@ const Projects = () => {
         </div>
 
         {/* content container */}
-        <div className='grid grid-cols-1 gap-12 md:gap-8 md:px-10 pt-9'>
+        <div className='grid grid-cols-2 gap-12 md:gap-8 md:px-10 pt-9'>
+          
+          {/* INDIVIDUAL CARD -- LOVELIST */}
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
+            {/* image */}
+            <div>
+              <Image src={lovelist} priority={true} />
+            </div>
+            {/* title */}
+            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Lovelist</div>
+            {/* desc */}
+            <div className='text-justify px-2 text-stone-700'>A task manager designed for date ideas with your loved ones. You can separate date ideas or activities into collections, so you can keep lists based on different contexts. For each task, you can add extra metadata to organize and plan the perfect outing! Check it out <a href="https://lovelist.netlify.app/" target="_blank" rel="noreferrer">here </a>and the code <a href="https://github.com/f-hossain/date-tracker" target="_blank" rel="noreferrer">here</a>.</div>
+
+  
+            {/* tags */}
+            <div className='flex flex-wrap py-2 poppins items-center justify-center'>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                react
+              </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                nextjs
+              </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                supabase
+              </span>
+              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
+                tailwindcss
+              </span>
+            </div>
+          </motion.div>
 
           {/* INDIVIDUAL CARD -- MICO */}
           <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
@@ -105,30 +135,6 @@ const Projects = () => {
               </span>
               <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                 scala
-              </span>
-            </div>
-          </motion.div>
-
-
-          {/* INDIVIDUAL CARD -- Temp */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card'>
-            {/* image */}
-            <div>
-              <Image src={num} priority={true} />
-            </div>
-            {/* title */}
-            <div className='text-xl px-2 poppins underline underline-offset-8 decoration-slate-200 pb-2 text-stone-800'>Numerical Mapping </div>
-            {/* desc */}
-            <div className='text-justify px-2 text-stone-700'>Developed multiple scripts to generate temperature and/or frequency maps to model various physical systems on the nano-scale using techniques such as the Richardson method, the Crank-Nicholson method, etc. Check out some of the scripts <a href="https://github.com/f-hossain/numerical_methods" target="_blank" rel="noreferrer">here</a>.</div>
-
-  
-            {/* tags -- optional & will add later */}
-            <div className='flex flex-wrap py-2 poppins items-center justify-center'>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
-                c++
-              </span>
-              <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
-                matlab
               </span>
             </div>
           </motion.div>
