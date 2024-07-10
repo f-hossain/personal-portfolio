@@ -29,7 +29,7 @@ const Header = () => {
                         }}
                     />
                 </div>
-                <p className='montserrat text-sm'>Hi, I'm Fariha :) I'm a fullstack engineer interested in bridging communities and leveraging the power of many to accomplish social good.</p>
+                <p className='montserrat text-sm'>Hi, I&apos;m Fariha :) I&apos;m a fullstack engineer interested in bridging communities and leveraging the power of many to accomplish social good.</p>
             </div>
             <motion.div variants={popVariant} initial="hidden" animate="visible" transition={{ duration: 0.7 }} className=' flex justify-center items-center'>
                 <div className='image-circle'>

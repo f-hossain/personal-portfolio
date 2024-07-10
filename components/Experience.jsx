@@ -23,7 +23,7 @@ const Experience = () => {
           <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-stone-200 text-stone-600 text-xs montserrat light'>
-              DEC '22 - MAR '24
+              DEC &apos;22 - MAR &apos;24
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
@@ -60,7 +60,7 @@ const Experience = () => {
           <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-stone-200 text-stone-600 text-xs montserrat light'>
-              JAN '21 - DEC '21
+              JAN &apos;21 - DEC &apos;21
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
@@ -106,7 +106,7 @@ const Experience = () => {
           <motion.div  variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-stone-200 text-stone-600 text-xs montserrat light'>
-              JAN '20 - APR '20
+              JAN &apos;20 - APR &apos;20
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
@@ -140,7 +140,7 @@ const Experience = () => {
           <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
             <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-200 text-stone-600 text-xs montserrat light'>
-              SEP '19 - DEC '19
+              SEP &apos;19 - DEC &apos;19
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
