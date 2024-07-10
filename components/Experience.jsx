@@ -8,11 +8,11 @@ const Experience = () => {
   }
 
   return (
-    <div  className='flex flex-col justify-content w-full px-6 pb-12 md:pt-24 md:px-24'>
+    <div id='work' className='flex flex-col justify-content w-full px-6 pb-12 md:pt-16 md:px-24'>
         {/*  section title */}
-        <div id='work' className='flex flex-row'>
+        <div className='flex flex-row'>
           <div className='inline-block mb-8 text-3xl'>
-              <p className='custom_heading playfair'>my work experience.</p>
+              <p className='custom_heading biro'>work experience.</p>
           </div>
         </div>
 
@@ -22,21 +22,21 @@ const Experience = () => {
           {/* ACTUAL CONTENT - NOVUS */}
           <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
-            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Dec 2022 - Present
+            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-stone-200 text-stone-600 text-xs montserrat light'>
+              DEC '22 - MAR '24
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Software Engineer <i>@ SEI Novus</i></p>
+                <p className='text-xl text-stone-700 montserrat'>Software Engineer <i>@ SEI Novus</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Dec 2022 - Present</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Implemented an end to end terms of service feature with full markdown support and communicated with clients, engineers and designers for feedback. Also maintained the codebase to run complex calculations and analysis against financial data, as well as ensuring data is up to date by creating jobs to pull in foreign interest rates and integrating our platform with other financial services. </div>
+                <div className='text-sm definition p-4 montserrat rounded text-stone-600'>Implemented an end to end terms of service feature with full markdown support and communicated with clients, engineers and designers for feedback. Also maintained the codebase to run complex calculations and analysis against financial data, as well as ensuring data is up to date by creating jobs to pull in foreign interest rates and integrating our platform with other financial services. </div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-wrap poppins'>
+                <div className='flex flex-wrap montserrat light'>
                   <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     scala
                   </span>
@@ -59,21 +59,21 @@ const Experience = () => {
           {/* ACTUAL CONTENT - PIXLEE */}
           <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
-            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Jan 2021 - Dec 2021
+            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-stone-200 text-stone-600 text-xs montserrat light'>
+              JAN '21 - DEC '21
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ Pixlee</i></p>
+                <p className='text-xl text-stone-700 montserrat'>Fullstack Developer <i>@ Pixlee</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Led and developed multiple core features for the Pixlee platform such as the end to end user flow for TikTok authentication within our app, the integration of Instagram APIs to scan and collect thousands of user generated content on the web as well as schedule and publish posts through our platform. Also acted as an intern mentor later on during my time here!</div>
+                <div className='text-sm definition p-4 montserrat rounded text-stone-600'>Led and developed multiple core features for the Pixlee platform such as the end to end user flow for TikTok authentication within our app, the integration of Instagram APIs to scan and collect thousands of user generated content on the web as well as schedule and publish posts through our platform. Also acted as an intern mentor later on during my time here!</div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-wrap poppins'>
+                <div className='flex flex-wrap montserrat light'>
                   <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     ruby on rails
                   </span>
@@ -102,26 +102,24 @@ const Experience = () => {
             </div>
           </motion.div>
 
-
-
           {/* ACTUAL CONTENT - MCAFEE */}
           <motion.div  variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
-            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Jan 2020 - Apr 2020
+            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-stone-200 text-stone-600 text-xs montserrat light'>
+              JAN '20 - APR '20
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Fullstack Developer <i>@ McAfee</i></p>
+                <p className='text-xl text-stone-700 montserrat'>Fullstack Developer <i>@ McAfee</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Led the creation of a landing page and data tables for an internal analytics tool using Angular as well as multiple data visualizations and RESTful APIs to showcase the nodes and paths of over 1000 dataset context items and how they are used within the analytics team’s ML models.</div>
+                <div className='text-sm definition p-4 rounded text-stone-600'>Led the creation of a landing page and data tables for an internal analytics tool using Angular as well as multiple data visualizations and RESTful APIs to showcase the nodes and paths of over 1000 dataset context items and how they are used within the analytics team’s ML models.</div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-wrap poppins'>
+                <div className='flex flex-wrap montserrat light'>
                   <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     javascript
                   </span>
@@ -138,26 +136,24 @@ const Experience = () => {
             </div>
           </motion.div>
 
-
-
           {/* ACTUAL CONTENT - HOME DEPOT */}
           <motion.div variants={slideVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='flex flex-col justify-center md:flex-row md:space-x-10 '>
             {/* image */}
-            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-slate-100 text-stone-600 text-sm poppins'>
-              Sept 2019 - Dec 2019
+            <div className='hidden md:block text-right custom_border pr-4 pt-1 border-r-2 border-200 text-stone-600 text-xs montserrat light'>
+              SEP '19 - DEC '19
             </div>
             {/* acc desc content */}
             {/* <div className='w-3/4 space-y-3 divide-y-2 divide-slate-200'> */}
             <div className='md:w-3/4 space-y-3'>
               {/* title content */}
               <div className='flex flex-col justify-between items-start'>
-                <p className='text-xl text-stone-700 poppins'>Frontend Developer <i>@ Home Depot</i></p>
+                <p className='text-xl text-stone-700 montserrat'>Frontend Developer <i>@ Home Depot</i></p>
                 <p className='block md:hidden pt-2 text-stone-700 text-xs'>Jan 2021 - Dec 2021</p>
               </div>
               {/* work desc */}
-                <div className='text-sm bg-slate-100 p-2 rounded text-slate-500'>Implemented a data lake repository to capture and optimize web performance metrics by as much as 52% and created multiple Angular components for their ecommerce website to improve the customer checkout experience. </div>
+                <div className='text-sm definition p-4 montserrat rounded text-stone-600'>Implemented a data lake repository to capture and optimize web performance metrics by as much as 52% and created multiple Angular components for their ecommerce website to improve the customer checkout experience. </div>
                 {/* tags -- optional & will add later */}
-                <div className='flex flex-wrap poppins'>
+                <div className='flex flex-wrap montserrat light'>
                   <span className="text-xs inline-block py-1 px-2 lowercase rounded text-stone-600 border border-2 border-stone-200 last:mr-0 mr-1 mt-1">
                     javascript
                   </span>
