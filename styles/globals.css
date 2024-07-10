@@ -5,14 +5,14 @@
 @font-face {
   font-family: "Biro";
   src: local("BiroScript"),
-    url("../public/fonts/Biro_Script_reduced.otf") format("opentype");
+    url("../public/fonts/Biro_Script_reduced.ttf") format("opentype");
   font-weight: normal;
 }
 
-.grit {
+/* .grit {
   -webkit-mask-image: url("../public/grit.png");
   mask-image: url("../public/grit.png");
-}
+} */
 
 @tailwind base;
 @tailwind components;
