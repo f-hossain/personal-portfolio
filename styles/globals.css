@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Biro";
   src: local("BiroScript"),
-    url("../public/fonts/Biro_Script_reduced.ttf") format("truetype");
+    url("../public/Biro_Script_reduced.ttf") format("truetype");
   font-weight: normal;
 }
 
