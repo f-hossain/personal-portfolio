@@ -9,11 +9,14 @@ const handle = app.getRequestHandler();
 app.prepare().then(() => {
     const server = express();
 
-    // Enable CORS for all routes
+    // Configure CORS
     server.use(cors());
 
-    // Handle Next.js requests
-    server.all('*', (req, res) => {
+    // Serve your font files
+    server.use('/fonts', express.static(__dirname + '/public/fonts'));
+
+    // Handle other routes
+    server.get('*', (req, res) => {
         return handle(req, res);
     });
 
