@@ -10,7 +10,7 @@ const About = () => {
   }
 
   return (
-    <div id='about' className='flex flex-col justify-content w-full pt-24 md:pt-12 pb-12 px-6 md:px-24'>
+    <div id='about' className='flex flex-col justify-content w-full pt-28 md:pt-12 pb-12 px-6 md:px-24'>
         {/*  section title */}
         <div className='flex flex-row'>
           <div className='inline-block mb-10 text-3xl'>
