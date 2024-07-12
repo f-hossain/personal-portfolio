@@ -8,11 +8,11 @@ const Experience = () => {
   }
 
   return (
-    <div id='work' className='flex flex-col justify-content w-full px-6 pb-12 md:pt-16 md:px-24'>
+    <div id='work' className='flex flex-col justify-content w-full px-6 pb-12 pt-24 md:pt-16 md:px-24'>
         {/*  section title */}
         <div className='flex flex-row'>
           <div className='inline-block mb-8 text-3xl'>
-              <p className='custom_heading biro'>work experience.</p>
+              <p className='custom_heading biro title-color'>work experience.</p>
           </div>
         </div>
 

@@ -7,11 +7,11 @@ const Projects = () => {
     hidden: { opacity: 0,  },
   }
   return (
-    <div id='projects' className='flex flex-col justify-content w-full px-6 pb-12 md:pt-16 md:px-12 lg:px-24'>
+    <div id='projects' className='flex flex-col justify-content w-full px-6 pb-12 pt-24 md:pt-16 md:px-12 lg:px-24'>
         {/*  section title */}
         <div className='flex flex-row'>
-          <div className='inline-block mb-8 text-3xl'>
-              <p className='custom_heading biro'>fun projects.</p>
+          <div className='inline-block mb-6 text-3xl'>
+              <p className='custom_heading biro title-color'>fun projects.</p>
           </div>
         </div>
 
@@ -19,7 +19,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 md:px-10 pt-9 montserrat'>
           
           {/* INDIVIDUAL CARD -- LOVELIST */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition grit'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-100 pb-2 text-stone-800'>Lovelist</div>
             {/* desc */}
@@ -44,7 +44,7 @@ const Projects = () => {
           </motion.div>
 
           {/* INDIVIDUAL CARD -- MICO */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition grit'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-100 pb-2 text-stone-800'>Mico App</div>
             {/* desc */}
@@ -69,7 +69,7 @@ const Projects = () => {
           </motion.div>
 
           {/* INDIVIDUAL CARD -- TT */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition grit'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-100 pb-2 text-stone-800'>TikTok OmniAuth Strategy</div>
             {/* desc */}
@@ -88,7 +88,7 @@ const Projects = () => {
           </motion.div>
 
           {/* INDIVIDUAL CARD -- PRs */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition grit'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded border border-slate-100 p-3 space-y-2 card definition'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-100 pb-2 text-stone-800'>Product Recommendations</div>
             {/* desc */}

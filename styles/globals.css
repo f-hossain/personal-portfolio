@@ -9,11 +9,6 @@
   font-weight: normal;
 }
 
-/* .grit {
-  -webkit-mask-image: url("../public/grit.png");
-  mask-image: url("../public/grit.png");
-} */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,22 +18,17 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  /* font-family: 'Lora', serif; */
   font-family: 'Montserrat';
   color: #292524;
   background: #fcfbf8;
 }
 
-.lora {
-  font-family: 'Lora', serif;
+::selection {
+  background: #e8d2ce;
 }
 
 .biro {
   font-family: "Biro";
-}
-
-.badscript {
-  font-family: "Bad Script"
 }
 
 .montserrat {
@@ -50,32 +40,8 @@ body {
   font-weight: 200;
 }
 
-.poppins {
-  font-family: 'Poppins', sans-serif;
-}
-
-.playfair {
-  font-family: 'Playfair Display', serif;
-  font-weight:
-}
-
-.courier {
-  font-family: 'Courier Prime', monospace;
-}
-
-.section-heading {
-  color: #780000;
-  font-family: "Biro";
-}
-
 .definition {
-  /* color: #c9ada7; */
   background: #ece3e1;
-}
-
-
-::selection {
-  background: #e8d2ce;
 }
 
 a {
@@ -92,7 +58,6 @@ a {
   font-weight: 400;
   display: inline-block;
   position: relative;
-  /* color: #47454a */
 }
 
 .page_links > a:hover {
@@ -119,42 +84,17 @@ a {
 
 .image-circle {
   width: 300px;
-  /* height: 400px; */
-  /* padding: 10px; */
-  /* animation: spin 20s infinite linear; */
 }
 
-
-.custom_heading::before {  
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
-
-.custom_heading:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.custom_heading::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  inset: 0 0 0 0;
-  background: rgb(245 245 245);
-  z-index: -1;
-  transition: transform .3s ease;
+.title-color {
+  color: rgb(82	81	82);
 }
 
 .custom_heading {
   position: relative;
   font-weight: 500;
-  color: #44403c;
-}
-
-.my_bg {
-  background: #A8AEBA;
-  color: #fff
+  /* color: #737373; */
+  color: rgb(82,81,82);
 }
 
 .card {
@@ -175,8 +115,6 @@ a {
   transition: all 0.5s ease;
   box-shadow: 0 10px 15px -3px rgb(71 85 105 / 0.1), 0 4px 6px -4px rgb(71 85 105 / 0.1);
   background: #faf2ef;
-  /* border-color: #ece3e1; */
-  /* --tw-shadow-color: #1e83ff; */
 }
 
 a {

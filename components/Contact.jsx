@@ -51,11 +51,11 @@ const Contact = () => {
 
 
   return (
-    <div id='contact' className='flex flex-col justify-content w-full px-6 md:pt-16 md:px-24'>
+    <div id='contact' className='flex flex-col justify-content w-full px-6 pt-24 md:pt-16 md:px-24 pb-8 md:pb-0'>
         {/*  section title */}
         <div className='flex flex-row'>
           <div className='inline-block mb-8 text-3xl'>
-              <p className='custom_heading biro'>say hello.</p>
+              <p className='custom_heading biro title-color'>say hello.</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
         <div className='pt-9 px-2'>
           {/* text content */}
           <div>
-            <div className='montserrat text-sm text-center'>
+            <div className='montserrat text-sm md:text-center'>
               Got an exciting project we can build together or just want to chat? I can be reached through the following platforms: 
               <a href="https://www.linkedin.com/in/f-hossain/" target='_blank' rel="noreferrer" className='pl-1.5'>Linkedin</a>, 
               <a href="https://github.com/f-hossain" target='_blank' rel="noreferrer" className='pl-1.5'>Github</a>, 
