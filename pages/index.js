@@ -22,7 +22,9 @@ export default function Home() {
         <Projects />
         <Contact />
       </div>
-      <Footer />
+      <div className='reverse-ombre'>
+        <Footer />
+      </div>
     </div>
   )
 }
