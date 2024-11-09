@@ -117,14 +117,8 @@ a {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   box-shadow: 0;
-  border-style: solid;
   border-width: 4px;
   border-image: linear-gradient(rgba(211,137,124,0.4), #f8efec) 0.5;
-  /* border-radius: 0.375rem; */
-}
-
-.card::before {
-  border-radius: 100%;
 }
 
 .card:hover {
@@ -134,8 +128,6 @@ a {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
   box-shadow: 0 10px 15px -3px rgb(71 85 105 / 0.1), 0 4px 6px -4px rgb(71 85 105 / 0.1);
-  /* background: #f8efec; */
-  /* border-width: 6px; */
   border-image: linear-gradient(rgba(211,137,124,0.3), rgba(211,137,124,0.3)) 0.5;
 }
 

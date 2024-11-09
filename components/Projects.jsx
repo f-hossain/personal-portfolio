@@ -18,7 +18,7 @@ const Projects = () => {
         {/* content container */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 md:px-10 pt-9 montserrat'>
           {/* INDIVIDUAL CARD -- LOVELIST */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card definition md:bg-transparent border-none md:border-solid'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-300 pb-2 text-stone-800'>Lovelist</div>
             {/* desc */}
@@ -43,7 +43,7 @@ const Projects = () => {
           </motion.div>
 
           {/* INDIVIDUAL CARD -- MICO */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card definition md:bg-transparent border-none md:border-solid'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-300 pb-2 text-stone-800'>Mico App</div>
             {/* desc */}
@@ -68,7 +68,7 @@ const Projects = () => {
           </motion.div>
 
           {/* INDIVIDUAL CARD -- TT */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card definition md:bg-transparent border-none md:border-solid'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-200 pb-2 text-stone-800'>TikTok OmniAuth Strategy</div>
             {/* desc */}
@@ -87,7 +87,7 @@ const Projects = () => {
           </motion.div>
 
           {/* INDIVIDUAL CARD -- PRs */}
-          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card'>
+          <motion.div variants={popVariant} initial="hidden" whileInView="visible" viewport={{ once: true }} className='rounded p-3 hover:p-4 space-y-2 card definition md:bg-transparent border-none md:border-solid'>
             {/* title */}
             <div className='text-xl px-2 montserrat underline underline-offset-8 decoration-stone-200 pb-2 text-stone-800'>Product Recommendations</div>
             {/* desc */}
