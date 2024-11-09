@@ -91,7 +91,7 @@ const Contact = () => {
               </formGroup>
 
               <div className='inline-block flex flex-col items-center '>
-              <input type='submit' value={submitText} onClick={(e)=>{handleSubmit(e)}} className='text-xs lowercase py-2 px-3 border border-stone-200 rounded text-stone-600 definition card montserrat' />
+              <input type='submit' value={submitText} onClick={(e)=>{handleSubmit(e)}} className='text-xs lowercase py-2 px-3 rounded text-stone-600 definition montserrat' />
               </div>
             </form>
           </div>

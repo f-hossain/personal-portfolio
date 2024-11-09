@@ -12,8 +12,10 @@ export default function Home() {
   return (
     <div>
       <ScrollToTop />
-      <MenuBar />
-      <Header />
+      <div className='ombre'>
+        <MenuBar />
+        <Header />
+      </div>
       <div className='md:px-24'>
         <About />
         <Experience />

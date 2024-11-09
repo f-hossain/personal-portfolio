@@ -15,7 +15,7 @@ const MenuBar = () => {
   }; 
 
   return (
-    <nav className="py-2 definition md:bg-transparent md:py-4 w-full fixed md:absolute z-50">
+    <nav className="py-2 mobile-menu md:bg-transparent md:py-6 w-full fixed md:absolute z-50">
         <div className="container px-4 mx-auto md:flex md:items-center">
 
             <div className="flex justify-between items-center">

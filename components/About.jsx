@@ -27,8 +27,8 @@ const About = () => {
               {/* phonetic notation would actually be ˈfɑriə */}
               <div className='text-xl md:pl-10 pt-10 md:pt-10 underline underline-offset-8 decoration-slate-200 md:no-underline montserrat text-stone-700'>Fariha (fah · ree · uh) :</div>
               <div className='md:pl-10 pt-5 md:pb-10 text-sm montserrat'>
-                <p className='definition p-4 rounded text-stone-500 biro text-base'>
-                  <i>Previously: </i> <br/> a bright eyed girl with too much time on her hands and access to tumblr.com who built custom themes for blogs using html/css. <br /><br />
+                <p className='definition p-4 rounded text-stone-500 biro text-base tracking-wide'>
+                  <i>Previously: </i> <br/> a bright eyed girl with too much time on her hands and access to tumblr.com who built custom themes for blogs using html and css. <br /><br />
                   <i>Currently: </i> <br/> a full stack developer with over 3 years of professional experience (<a href='https://github.com/f-hossain' target='_blank' rel="noreferrer">+ countless years of random side projects</a>) and a BASc in Nanotechnology Engineering from the University of Waterloo
                 </p>
                 <br />

@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   return (
-    <div id='home' className='flex flex-col w-full h-screen pb-10 md:pb-5 justify-center items-center'>
+    <div id='home' className='flex flex-col w-full h-screen py-10 md:pb-5 justify-center items-center'>
         {/* small lil intro abt me */}
         <div className='flex flex-col-reverse w-3/4 md:flex-row justify-center items-center md:h-full md:space-x-10 space-y-6 space-y-reverse pt-20 px-0 md:px-24'>
             <div className='flex flex-col space-y-8 pt-10 md:pt-0'>
