@@ -33,7 +33,7 @@ const MenuBar = () => {
                 <a href="#projects" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">projects</a>
                 <a href="#contact" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">contact</a>
                 <a href="https://fhossain.substack.com/" target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">blog</a>
-                <a href='https://drive.google.com/file/d/177nJD5qb9q4OGMuSWZz9ZKchtqb_gJDy/view?usp=sharing' target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">resume</a>
+                <a href='https://drive.google.com/file/d/17HbiJY9s6cVduFWUD5paiUbJ5WCrrGV5/view?usp=sharing' target="_blank" rel="noreferrer" className="p-2 lg:px-4 md:mx-2 text-gray-600 pb-3">resume</a>
             </div>
         </div>
     </nav>

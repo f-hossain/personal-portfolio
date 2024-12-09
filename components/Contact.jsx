@@ -76,22 +76,22 @@ const Contact = () => {
             <form className='flex flex-col space-y-6'>
               <formGroup className='flex flex-col space-y-1'>
                 < label className='montserrat text-xs' htmlFor='name'>name</label>
-                < input type='text' value={name} placeholder='Anya Forger' onChange={(e)=>{setName(e.target.value)}} name='name' className='border border-red-100 rounded shadow-sm shadow-stone-200 h-8 px-2 text-xs' required />  
+                < input type='text' value={name} placeholder='Anya Forger' onChange={(e)=>{setName(e.target.value)}} name='name' className='border border-stone-200 rounded shadow-sm shadow-stone-200 h-8 px-2 text-xs' required />  
               </formGroup>
 
               <formGroup className='flex flex-col space-y-1'>
                 < label className='montserrat text-xs' htmlFor='email'>email</label>
-                < input type='email' value={email} placeholder='anya@edenacademy.com' onChange={(e)=>{setEmail(e.target.value)}} name='email' className='border border-red-100 rounded shadow-sm shadow-stone-200 h-8 px-2 text-xs' required />
+                < input type='email' value={email} placeholder='anya@edenacademy.com' onChange={(e)=>{setEmail(e.target.value)}} name='email' className='border border-stone-200 rounded shadow-sm shadow-stone-200 h-8 px-2 text-xs' required />
               </formGroup>
 
               <formGroup className='flex flex-col space-y-1 inline-block'>
                 < label className='montserrat text-xs' htmlFor='message'>message</label>
                 {/* < input type='text-area' value={message} placeholder='Type your message here!' onChange={(e)=>{setMessage(e.target.value)}} name='message' className='border border-slate-300 rounded h-36 shadow-sm shadow-slate-200 px-2' required /> */}
-                <textarea id='message' name='message' value={message} placeholder='Type your message here!' onChange={(e)=>{setMessage(e.target.value)}} className='border border-red-100 rounded h-36 shadow-sm shadow-stone-200 p-2 text-xs'/>
+                <textarea id='message' name='message' value={message} placeholder='Type your message here!' onChange={(e)=>{setMessage(e.target.value)}} className='border border-stone-200 rounded h-36 shadow-sm shadow-stone-200 p-2 text-xs'/>
               </formGroup>
 
               <div className='inline-block flex flex-col items-center '>
-              <input type='submit' value={submitText} onClick={(e)=>{handleSubmit(e)}} className='text-xs lowercase py-2 px-3 rounded text-stone-600 definition montserrat' />
+              <input type='submit' value={submitText} onClick={(e)=>{handleSubmit(e)}} className='border border-stone-200 text-xs lowercase py-2 px-3 rounded text-stone-600 definition montserrat' />
               </div>
             </form>
           </div>
